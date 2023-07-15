@@ -4,3 +4,4 @@ seaborn
 pandas
 streamlit
 joblib
+xgboost
