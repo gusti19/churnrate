@@ -3,5 +3,4 @@ matplotlib
 seaborn
 pandas
 streamlit
-matplotlib.ticker
 joblib
