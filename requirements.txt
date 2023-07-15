@@ -1,6 +1,7 @@
 numpy
-matplotlib
+matplotlib.pyplot
 seaborn
 pandas
 streamlit
+matplotlib.ticker
 joblib
