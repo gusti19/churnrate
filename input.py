@@ -11,8 +11,6 @@ import pandas as pd
 import matplotlib.ticker as mtick
 import streamlit as st
 import joblib
-from sklearn.preprocessing import MinMaxScaler
-from sklearn.preprocessing import StandardScaler
 
 #Dataframe
 
