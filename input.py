@@ -182,26 +182,6 @@ def main():
 
     df = pd.DataFrame(data_list)
     st.write(df)
-    # data_dict = {keys[i]: data_list[i] for i in range(len(keys))}
-    # st.write(data_dict)
-    # # Initialize the MinMaxScaler
-    # scaler = MinMaxScaler(feature_range=(0, 1))
-
-    # # Extract the numeric values from the dictionary
-    # numeric_values = list(data_list.values())
-
-    # # Reshape the values to a 2D array (required by the scaler)
-    # values_array = [[x] for x in numeric_values]
-
-    # # Fit and transform the values array
-    # scaled_values = scaler.fit_transform(values_array)
-
-    # # Update the dictionary with the scaled values
-    # for i, key in enumerate(data_list.keys()):
-    #     data_list[key] = scaled_values[i][0]
-
-    # # Print the updated dictionary
-    # st.write(data_list)
 
     # Mencari value dari Churn
     loaded_model = joblib.load('churn_xgbrf_model_2.pkl')
